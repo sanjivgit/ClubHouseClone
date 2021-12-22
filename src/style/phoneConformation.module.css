@@ -1,0 +1,90 @@
+.phoneConformContainer {
+    padding: 3em 1.7em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f0e4;
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+}
+
+.phoneConformContainer h1 {
+    font-style: normal;
+    color: var(--textColor);
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.phoneConformContainer p {
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+}
+
+.phoneConformContainer p span {
+    font-weight: 600;
+}
+
+.backBtn img {
+    width: 20px;
+    text-decoration: none;
+}
+
+.backBtn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.Notification {
+    background-color: #ffff;
+    border-radius: 1em;
+    box-shadow: 0 0 5em #cccc;
+}
+
+.Notification h4 {
+    font-weight: 600;
+    color: black;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0.3em;
+}
+
+.Notification p {
+    font-size: 0.852em;
+    font-weight: 500;
+    width: 100%;
+    margin: auto;
+}
+
+.permission  {
+    position: relative;
+}
+
+.permission a {
+    display: inline-block;
+    width: 50%;
+    border-top: 1px solid #cccc;
+    padding: 0.5em;
+    color: var(--btnBgColor);
+}
+
+.permission>a:first-child {
+    border-right: 0.02em solid rgb(177, 175, 175);
+}
+
+.permission img {
+    position: absolute;
+    margin: -90px;
+    right: 150px;
+    top: 150px;
+    height: 100%;
+}

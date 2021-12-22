@@ -1,0 +1,50 @@
+{
+    "people": [
+        {
+            "title": "April Underwood",
+            "description": "CEO and Founder, local Laboratory."
+        },
+        {
+            "title": "Helena Price",
+            "description": "Founder @drinkaus / Twitter @helena "
+        },
+        {
+            "title": "James Cham",
+            "description": "@jamescham"
+        }
+    ],
+    "conversation": [
+        {
+            "title": "Tech",
+            "description": "Venture Capital, DTC, AI, SaaS Angel Investor"
+        },
+        {
+            "title": "Hanging Out",
+            "description": "Venture Capital, DTC, AI, SaaS Angel Investor"
+        },
+        {
+            "title": "Faith",
+            "description": "Venture Capital, DTC, AI, SaaS Angel Investor"
+        },
+        {
+            "title": "Wellness",
+            "description": "Venture Capital, DTC, AI, SaaS Angel Investor"
+        },
+        {
+            "title": "World Affairs",
+            "description": "Venture Capital, DTC, AI, SaaS Angel Investor"
+        },
+        {
+            "title": "Sanjiv Kumar",
+            "description": "Venture Capital, DTC, AI, SaaS Angel Investor"
+        },
+        {
+            "title": "Avengers",
+            "description": "Venture Capital, DTC, AI, SaaS Angel Investor"
+        },
+        {
+            "title": "Money Heist",
+            "description": "Venture Capital, DTC, AI, SaaS Angel Investor"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+.arrow_icon {
+    height: 14px;
+    width: 14px;
+    margin-right: 10px;
+    transform: rotate(-90deg);
+}
+
+.roomDetailContainer {
+    background-color: #f2f0e4;
+    height: 100%;
+    margin: -1.5em -1em;
+}
+
+.roomDetailContainer .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8em 0.5em 1.5em 0.5em;
+}
+
+.profile_img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.roomDetailCard {
+    background-color: #ffffff;
+    border-radius: 0 !important;
+    margin-top: -10px;
+    height: 75vh;
+    overflow: auto;
+}
+
+.roomDetailCard img {
+    width: 50px;
+    height: 50px;
+    border-radius: 1em;
+}
+
+.roomDetailCard p {
+    border-top: none;
+}
+
+.memberContainer {
+    text-align: center;
+    /* width: 70px; */
+    position: relative;
+}
+
+.roomDetailCard .audio_icon {
+    position: absolute;
+    right: 8px;
+    bottom: 39px;
+    background-color: #ffffff;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 3px #cccccc;
+}
+
+.roomDetailCard .audio_icon svg {
+    height: 10px;
+    color: #28fe02;
+}
+
+.roomDetailCard p{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.roomDetailCard p span {
+    font-size: 2em;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 0.8em;
+    background-color: #28fe02;
+    border-radius: 50%;
+    color: white;
+    margin-right: 0.1em;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 0 !important;
+}
+
+.footer button {
+    border: none;
+    margin: 0.5em 0;
+    background-color: #e7e4d5;
+    border-radius: 50%;
+}
+
+.footer > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #28ae61;
+    border-radius: 1em;
+    padding: 0.2em 1em;
+    font-weight: 600;
+}
+
+.footer button img {
+    width: 20px;
+}
+
+.footer > div {
+    display: flex;
+    align-items: center;
+}
+
+.footer > div button {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > div > button:nth-child(1) {
+    font-size: 1em;
+    margin-right: 0.5em;
+}
+
+.footer > div > button:nth-child(2) {
+    margin-right: 0.5em;
+}

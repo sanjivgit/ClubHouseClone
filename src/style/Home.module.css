@@ -1,0 +1,44 @@
+.home_container {
+    padding: 1em 1.5em;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+.home_container + .active_btn button {
+    background-color: transparent;
+    border: none;
+    margin: auto;
+}
+
+.home_container + .active_btn {
+    display: flex;
+    align-items: center;
+    padding: 4em 1.5em 2em 1.5em;
+    position: sticky;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(transparent 20%, #f2f0e4 80%);
+}
+
+.home_container + .active_btn >button:first-child {
+    background-color: rgb(64, 148, 64);
+    color: #ffff;
+    border-radius: 2em;
+    padding: 0.2em 1em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.home_container + .active_btn>button:nth-child(2) {
+    line-height: 1em;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 8%;
+    color: var(--textColor);
+}

@@ -1,0 +1,74 @@
+:root {
+    --textColor: rgb(65, 64, 66);
+    --btnBgColor: #3287b7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: 'Nuetrif Pro';
+}
+
+button {
+    outline: none !important;
+}
+
+a {
+    text-decoration: none;
+}
+
+.arrow img {
+    width: 20px;
+}
+
+.primaryBtn {
+    background-color: var(--btnBgColor);
+    color: white;
+    border-radius: 2em;
+    padding: 0.5em 1.5em;
+}
+
+.app_layout {
+    background-color: #f2f0e4;
+    height: auto;
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+.contact >:nth-child(1) {
+    margin-right: 10px;
+}
+
+.mar {
+    margin-right: 5px;
+}
+
+.react-swipeable-view-container {
+    max-width: 400px;
+    margin: auto;
+    border-radius: 1.5em 1.5em 0 0;
+}
+
+.react-swipeable-view-container div{
+    border-radius: 1.5em 1.5em 0 0;
+}
+
+.text-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ReactSwipeableBottomSheet--open {
+    overflow: hidden !important;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+    background-color: transparent;
+}

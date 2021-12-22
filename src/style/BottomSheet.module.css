@@ -1,0 +1,67 @@
+.BottomSheetContainer {
+    background-color: #cccccc;
+    border-radius: 1.5em 1.5em 0 0;
+    padding: 1.5em 1em;
+    position: relative;
+    height: 100%;
+}
+
+.switch_Line {
+    background-color: #a5a2a2;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    height: 4px;
+    width: 35px;
+    transform: translateX(-50%);
+}
+
+.addTopicBtn {
+    border: none;
+    color: #28ae61;
+    background-color: transparent;
+}
+
+.selectRoom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.selectRoom button {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 1em;
+    padding: 0.5em 1em;
+}
+
+.selectRoom button div{
+    background-color: lightseagreen;
+    font-size: 50px;
+    border-radius: 1em;
+}
+
+.selectRoom button.active {
+    background-color: lightskyblue;
+    border-radius: 1.5em;
+    border: 1px solid lightseagreen;
+}
+
+.BottomSheetContainer p {
+    text-align: center;
+    font-weight: 500;
+    color: var(--textColor);
+    border-top: 1px solid #a5a2a2;
+    font-size: 15px;
+}
+
+.letsGo {
+    border: none;
+    border-radius: 1em;
+    background-color: #28ae61;
+    padding: 0.3em 2em;
+    color: #ffffff;
+    font-weight: 500;
+}

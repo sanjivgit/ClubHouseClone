@@ -1,0 +1,45 @@
+.Room_Card {
+    background-color: #ffff;
+    border-radius: 1em;
+    padding: 0.5em 1em;
+    margin-top: 0.5em;
+}
+
+.Room_Card h6 {
+    font-size: 0.645em;
+    color: var(--textColor);
+    margin-bottom: 0.3em;
+}
+
+.Room_Card h2 {
+    font-size: 0.875em;
+    font-weight: 600;
+}
+
+.Room_Img img{
+    width: 35%;
+    height: 30%;
+    border-radius: 0.5em;
+}
+
+.Room_Img {
+    position: relative;
+}
+
+.Room_Img > img:last-child {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    height: 100%;
+}
+
+.profile_details {
+    display: flex;
+    align-items: flex-start;
+}
+
+.Room_Members p {
+    font-size: 0.9em;
+    line-height: 0em;
+    margin-bottom: 0.5em;
+}

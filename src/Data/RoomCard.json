@@ -1,0 +1,94 @@
+[
+    {
+        "id": "1",
+        "title": "GOOD TIME",
+        "sub_title": "This time is good for your life",
+        "members" : [
+            {
+                "first_name": "Sanjiv",
+                "last_name": "Kumar"
+            },
+            {
+                "first_name": "Rohan",
+                "last_name": "Kumar"
+            },
+            {
+                "first_name": "Shyam",
+                "last_name": "Kumar"
+            },
+            {
+                "first_name": "Hare",
+                "last_name": "Krishna"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "MORNING TIME",
+        "sub_title": "The morning time is good for exercise",
+        "members" : [
+            {
+                "first_name": "Shashi",
+                "last_name": "Bhushan"
+            },
+            {
+                "first_name": "Dara",
+                "last_name": "Singh"
+            },
+            {
+                "first_name": "Abhishek",
+                "last_name": "Kumar"
+            },
+            {
+                "first_name": "Jay",
+                "last_name": "Krishna"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "title": "EVENING TIME",
+        "sub_title": "The Evening Time is Good for Playing Game",
+        "members" : [
+            {
+                "first_name": "Deepak",
+                "last_name": "Kumar"
+            },
+            {
+                "first_name": "Harish",
+                "last_name": "Kumar"
+            },
+            {
+                "first_name": "Shambhu",
+                "last_name": "Satyarthi"
+            },
+            {
+                "first_name": "Sumit",
+                "last_name": "Kumar"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "title": "AT NIGHT",
+        "sub_title": "Early to Sleep and Early to Rise",
+        "members" : [
+            {
+                "first_name": "Prasenjeet",
+                "last_name": "Kumar"
+            },
+            {
+                "first_name": "Ramu",
+                "last_name": "Kaka"
+            },
+            {
+                "first_name": "Anand",
+                "last_name": "Kumar"
+            },
+            {
+                "first_name": "Radhe",
+                "last_name": "Shyam"
+            }
+        ]
+    }
+]
