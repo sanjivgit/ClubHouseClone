@@ -1,0 +1,67 @@
+.upcomingContainer {
+    height: 100vh;
+    overflow: auto;
+    padding: 0 0.5em;
+}
+
+.header img {
+    width: 12px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.7em;
+}
+
+.header h6 {
+    padding-top: 0.7em;
+    color: var(--textColor);
+}
+
+.upcomingContainer h5 {
+    font-size: 1em;
+    background-color: #d6d4d4;
+    margin-left: -0.33em;
+    padding: 0.2em 0.5em;
+    color: #6b6a6a;
+}
+
+.timeAndIcon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.timeAndIcon p {
+    color: #aaaa;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.mainUpcoming {
+    margin-bottom: 1.3em;
+    line-height: 1;
+}
+
+.mainUpcoming h6 {
+    font-size: 1.1em;
+    color: #6b6a6a;
+}
+
+.upcomingImages img {
+    width: 30px;
+    border-radius: 0.7em;
+    margin-left: 0.4em;
+    padding-top: 0.1em;
+}
+
+.mainUpcoming>p:last-child {
+    padding-right: 1em;
+    font-size: 0.8em;
+    line-height: 1.4;
+    color: #9e9c9c;
+    padding-top: 0.2em;
+}
