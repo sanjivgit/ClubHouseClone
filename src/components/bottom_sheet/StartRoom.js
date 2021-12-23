@@ -7,7 +7,9 @@ export default function StartRoom(props) {
 
     return (
         <div>
-            <div className={style.switch_Line}></div>
+            <div className={style.switch_Line}
+                onClick={() => props.setSheetVisible(false)}
+            ></div>
             <div className="text-right">
                 <button className={style.addTopicBtn}>+ Add a topic</button>
             </div>
